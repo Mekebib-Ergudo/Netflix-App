@@ -1,0 +1,18 @@
+API = 'd33a0905eaacf4289d1bafc3b66d6536'
+baseUrl = 'https://api.themoviedb.org/3'
+topRated = '/movie/top_rated?api_key={API}&language=english&region=US'
+netflixOrginal = '/discover/tv?api_key={API}with_networks=213'
+trending  = '/trending/all/week?language=english'
+horrorMovies = '/discover/movie?api_key={API}&primary_release_year=2023&with_genres=27'
+actionMovies = '/discover/movie?api_key={API}&primary_release_year=2023&with_genres=28'
+comedyMovies = '/discover/movie?api_key={API}&primary_release_year=2023&with_genres=35'
+romanceMovies = '/discover/movie?api_key={API}&primary_release_year=2023&with_genres=10749'
+documentaries = '/discover/movie?api_key={API}&primary_release_year=2023&with_genres=99'
+image base-url = 'https://image.tmdb.org/t/p/original/
+
+==== try====
+https://api.themoviedb.org/3/movie/top_rated?api_key=d33a0905eaacf4289d1bafc3b66d6536&language=english&region=US
+
+
+Deployed url
+https://netflix-app-40276.web.app
