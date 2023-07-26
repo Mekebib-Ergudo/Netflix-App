@@ -13,6 +13,4 @@ image base-url = 'https://image.tmdb.org/t/p/original/
 ==== try====
 https://api.themoviedb.org/3/movie/top_rated?api_key=d33a0905eaacf4289d1bafc3b66d6536&language=english&region=US
 
-
-Deployed url
-https://netflix-app-40276.web.app
+Hosting URL: https://netflix-new-2007d.web.app

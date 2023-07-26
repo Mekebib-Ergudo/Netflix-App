@@ -31,6 +31,7 @@ const Banner = ({ urlComponent }) => {
 	const truncate = (str, n) => {
 		return str?.length > n ? str.substr(0, n - 1) + '...' : str;
 	};
+
 	return (
 		<header className="banner" style={styleBanner}>
 			<div className="banner__contents">
@@ -42,6 +43,7 @@ const Banner = ({ urlComponent }) => {
 					<button className="banner__button">My List</button>
 				</div>
 				<h1 className="banner_desc">{truncate(movie?.overview, 150)}</h1>
+				{/* {movie?.overview.substring(0, 150)} */}
 			</div>
 			<div className="banner__fadeBottom"></div>
 		</header>
