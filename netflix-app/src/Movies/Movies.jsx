@@ -20,6 +20,7 @@ const Movies = ({ title, url, isLarge }) => {
 		fetchMovies();
 	}, []);
 	// Loading Page...
+
 	const opts = {
 		height: '390',
 		width: '100%',
